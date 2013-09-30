@@ -1,0 +1,11 @@
+name = Group - Add This
+description = Submodule of Addthis social media field for Answers
+core = 7.x
+package = ImageX
+version = 7.x-1.0
+project = imagex_group_addthis
+dependencies[] = addthis
+dependencies[] = features
+dependencies[] = imagex_addthis
+features[features_api][] = api:1
+features[field_instance][] = node-group-field_addthis
