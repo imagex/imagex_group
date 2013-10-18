@@ -1,0 +1,13 @@
+name = Group Permissions
+core = 7.x
+package = ImageX
+version = 7.x-1.0
+project = imagex_group_permissions
+dependencies[] = features
+dependencies[] = node
+features[features_api][] = api:2
+features[user_permission][] = create group content
+features[user_permission][] = delete any group content
+features[user_permission][] = delete own group content
+features[user_permission][] = edit any group content
+features[user_permission][] = edit own group content
