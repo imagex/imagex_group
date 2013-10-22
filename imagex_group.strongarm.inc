@@ -79,6 +79,9 @@ function imagex_group_strongarm() {
         'redirect' => array(
           'weight' => '5',
         ),
+        'workbench_access' => array(
+          'weight' => '0',
+        ),
       ),
       'display' => array(),
     ),
