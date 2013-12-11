@@ -129,5 +129,7 @@ function imagex_group_strongarm() {
   $strongarm->value = 1;
   $export['node_submitted_group'] = $strongarm;
 
+  features_alter_code('variable', $export);
+
   return $export;
 }

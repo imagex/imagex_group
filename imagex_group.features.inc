@@ -27,5 +27,8 @@ function imagex_group_node_info() {
       'help' => '',
     ),
   );
+
+  features_alter_code('node', $items);
+
   return $items;
 }

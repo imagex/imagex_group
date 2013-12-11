@@ -151,8 +151,7 @@ function imagex_group_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-
-  // Translatables
+  // Exported field_instance: 'node-group-field_tags'
   $field_instances['node-group-field_tags'] = array(
     'bundle' => 'group',
     'default_value' => NULL,
@@ -192,10 +191,14 @@ function imagex_group_field_default_field_instances() {
     ),
   );
 
+  // Translatables
+  // Included for use with string extractors like potx.
   t('Group');
   t('Group Logo');
   t('Radioactivity');
   t('Tags');
+
+  features_alter_code('field_instance', $field_instances);
 
   return $field_instances;
 }
