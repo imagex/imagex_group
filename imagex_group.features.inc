@@ -21,7 +21,7 @@ function imagex_group_node_info() {
     'group' => array(
       'name' => t('Group'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('Use <em>group</em> to create a new community around a particular topic.'),
       'has_title' => '1',
       'title_label' => t('Group Title'),
       'help' => '',
