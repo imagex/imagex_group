@@ -36,6 +36,7 @@ features[variable][] = menu_parent_group
 features[variable][] = node_options_group
 features[variable][] = node_preview_group
 features[variable][] = node_submitted_group
+features[variable][] = panelizer_defaults_node_group
 features_exclude[dependencies][linux_events] = linux_events
 features_exclude[dependencies][imagex_events] = imagex_events
 features_exclude[field_instance][node-group-body] = node-group-body
