@@ -11,6 +11,7 @@ dependencies[] = image
 dependencies[] = imagex_common_fields
 dependencies[] = imagex_vocabulary_tags
 dependencies[] = list
+dependencies[] = og
 dependencies[] = og_ui
 dependencies[] = options
 dependencies[] = panelizer
